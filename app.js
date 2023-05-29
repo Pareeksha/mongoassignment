@@ -62,3 +62,5 @@ app.get('/',(req, res) => {
 app.listen(8080, ()=>{
     console.log('server ready');
 })
+
+module.exports = app;
